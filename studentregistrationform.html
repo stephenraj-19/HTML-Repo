@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student form</title>
+</head>
+<body>
+    <h1 align="center"><u>STUDENT REGISTRATION FORM</u> </h1>
+    <table bgcolor="blue" align="center">
+        <tr>
+            <td><label>FIRST NAME</label></td>
+            <td><input type="text" name="name" placeholder="Name"/>
+                <span>(max 30 characters a-z and A-Z)</span></td>
+        </tr>
+        <tr>
+            <td> <label>LAST NAME</label></td>
+            <td><input type="text" name="Last name" placeholder="Last Name"/>
+                <span>(max 30 characters a-z and A-Z)</span></td>
+        </tr><br><br>
+        <tr>
+            <td> <label>DATE OF BIRTH</label></td>
+            <td> <input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Email id</label></td>
+               <td> <span><input type="text" name="email" placeholder="email"></td>
+        </tr>
+        <tr>
+            <td><label>MOBILE NO</label></td>
+            <td><input type="number" name="Mobile" placeholder="Mobile">  <span>(10 digit number)</span></td>
+        </tr>
+        <tr>
+           <td><label for="Gender">Gender</label></td> 
+           <td><input type="radio" name="Gender" value="Male">Male
+           <input type="radio" name="Gender" value="female">female</td>
+        </tr>
+        <tr>
+            <td><label>ADDRESS</label></td>
+            <td><textarea name="Address" placeholder="Address" ></textarea></td></tr>
+        <tr>
+            <td><label>PINCODE</label></td>
+            <td><input type="text" name="CITY" placeholder="CITY">
+                <span>(max 30 characters a-z and A-Z)</span></td>
+        </tr>
+        <tr>
+            <td><label>PINCODE</label></td>
+            <td><input type="number" name="PINCODE" placeholder="Pincode">
+                <span>(6 digit number)</span></td>
+        </tr>
+        <tr><tr>
+            <td><label>STATE</label></td>
+            <td><input type="text" name="STATE" placeholder="STATE">
+            <span>(max 30 characters a-z and A-Z)</span></td>
+        </tr></tr>
+        <tr>
+            <td><label>COUNTRY</label></td>
+            <td><select><option>INDIA</option></select></td>
+        </tr>
+        <tr>
+            <td><label>HOBBIES</label></td>
+            <td><input type="checkbox">Drawing
+                <input type="checkbox">Singing
+                <input type="checkbox">Dancing
+                <input type="checkbox">Sketching
+            </td>
+        </tr>
+        <tr>
+            <td><label></label>
+                <td>
+                    <span><input type="checkbox">others</span><input type="text">
+                </td>
+        </tr>
+        <tr>
+            <td>
+               <label>QUALIFICATION</label>
+            </td>
+            <td>
+                <table>
+                    <tr><th>SI.NO.</th><th>EXAMINATION</th><th>Board</th><th>Percentage</th><th>Year of Passing</th></tr>
+                    <tr><td>1</td><td>Class X</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    <tr><td>2</td><td>Class XII</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr> 
+                    <tr><td>3</td><td>Graduation</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    <tr><td>4</td><td>Masters</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    <tr><td></td><td></td><td>(10 char max)</td> <td>(upto 2 decimal)</td></tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><label>COURSES <br>APPLIED FOR</label></td>
+            <td><input type="radio" id="BCA" name="Courses">BCA
+                <input type="radio" id="B.Com" name="Courses">B.com
+                    <input type="radio" id="B.Sc" name="Courses">B.Sc
+                    <input type="radio" id="B.A" name="Courses">B.A
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"align="center"><button>submit</button><button>Reset</button></td>
+        </tr>
+        
+    </table>
+
+   
+
+    
+</body>
+</html>
